@@ -39,10 +39,10 @@ public class ListaTarefa {
         listaTarefa.adicionarTarefa("Tarefa 1");
         listaTarefa.adicionarTarefa("Tarefa 1");
         listaTarefa.adicionarTarefa("Tarefa 3");
-        System.out.println("O npumero total de elementos na lista é: " + listaTarefa.obterNumeroTotalTarefas());
+        System.out.println("O numero total de elementos na lista é: " + listaTarefa.obterNumeroTotalTarefas());
 
         listaTarefa.removerTarefa("Tarefa 1");
-        System.out.println("O npumero total de elementos na lista é: " + listaTarefa.obterNumeroTotalTarefas());
+        System.out.println("O numero total de elementos na lista é: " + listaTarefa.obterNumeroTotalTarefas());
 
         listaTarefa.obterDescricoesTarefas();
 
